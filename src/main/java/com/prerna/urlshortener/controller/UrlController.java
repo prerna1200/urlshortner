@@ -28,7 +28,6 @@ public class UrlController {
         return code;
     }
 
-
     // redirect api
     // when user opens short code
     @GetMapping("/{code}")
